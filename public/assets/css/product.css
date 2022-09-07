@@ -1,0 +1,132 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+
+:root {
+  --orange: #ff7800;
+  --black: #130f40;
+  --light-color: #666;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  --border: 0.2rem solid rgba(0, 0, 0, 0.1);
+  --outline: 0.1rem solid rgba(0, 0, 0, 0.1);
+  --outline-hover: 0.2rem solid var(--black);
+}
+
+button,a{
+  cursor:pointer
+}
+button,a:hover{
+  transform: scale(1.1);
+  text-decoration: none!important;
+  color: white!important;
+}
+
+body {
+  background: #eee!important;
+}
+.product{
+  background: #eee!important;
+  padding: 4rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+.product h1{
+ font-size: 4rem;
+ font-weight: 800;
+ margin-top: 3rem;
+ margin-bottom: 0rem;
+}
+.product-btn{
+  width:100%;
+  max-width: 1200px;
+  
+ 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.product-btn>a{
+  text-decoration: none;
+  background-color:orange;
+  border-radius: 3rem;
+  font-size:1.5rem;
+  padding: 1.4rem 2rem;
+  
+  color: white;
+  margin:1rem
+}
+
+
+.product-item{
+  margin-top:3rem;
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+.items{
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding:2rem;
+  background: white !important;
+  max-width: 250px;
+  margin:2rem;
+}
+.items >img{
+  width:100%;
+  min-width: 250px;
+  min-height: 200px;
+} 
+.product-content{
+  width:100%;
+ 
+     
+}
+.product-content >p{
+  margin-bottom:2rem;
+}
+.product-content >a{
+  text-decoration: none;
+  color:white;
+  background-color:orange;
+  padding:1rem;
+  border-radius: 5px;
+  
+}
+@media screen and (max-width:578px) {
+  h3{
+   font-size: 1.5rem !important;
+   
+ }
+   h1{
+   font-size: 3rem !important;
+ }
+   p{
+   font-size: 1rem !important;
+   
+ }
+
+  button {
+   
+   border-radius: 3rem !important;
+   font-size:1rem !important;
+   
+   margin: 1rem 1rem 0.5rem 0 !important;
+   padding:0.8rem !important;
+   
+ 
+}
+.product-btn>a{
+  
+  
+  font-size:1rem;
+  padding: 0.8rem ;
+  
+  color: white;
+  margin:1rem
+}
+}
+

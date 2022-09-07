@@ -1,0 +1,64 @@
+.mid{
+max-width:2000px;
+margin:4rem  auto 
+}
+
+
+.mid-left{
+max-width  removed kerni h 
+}
+
+.bussiness{
+
+    max-width: 2000px;
+    margin: 0 auto;
+
+}
+.end{
+
+max-width:2000px;
+margin:4rem  auto 
+}
+
+
+
+.contactus{
+max-width: 1500px            bussiness queery html
+}
+
+
+.contactus{
+max-widtrh:1500px 					contactus query html
+}
+
+
+.content-right iframe {
+    
+    max-width: 700px;
+}
+
+
+.about-us-bottom-container{
+max-width: 2000px 
+}
+
+
+
+header footer tumhare upper h kyuki tumne design kiya tha agr wo kern h to bta dena kr dunga use bhi 
+or aaj crousal bhi kr dunga , banner you have do it by yourself 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
