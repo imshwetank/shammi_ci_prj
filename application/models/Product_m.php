@@ -140,4 +140,9 @@ class Product_m extends CI_Model {
         }
 
         }
+	 public function descData($data){
+            $sql="SELECT * FROM product_dsc where status=$data ";    
+            $query = $this->db->query($sql);
+            return $query->result_array();
+        }
 }
