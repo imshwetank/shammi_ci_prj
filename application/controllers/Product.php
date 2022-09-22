@@ -371,5 +371,10 @@ class Product extends CI_Controller {
 		
 	}
 	// end new produce
+	public function desc($id){
+		$result=$this->Product_m->descData($id);
+		echo '<pre>';
+		print_r($result);
+	}
 	
 }
